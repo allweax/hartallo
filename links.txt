@@ -1,0 +1,83 @@
+declaring pointers: http://www.cdecl.org/
+Benchmarking functions: http://nadeausoftware.com/articles/2012/03/c_c_tip_how_measure_cpu_time_benchmarking
+SSE functions listed by version: http://sseplus.sourceforge.net/fntable.html
+SSE functions listed with short description (good overview): http://neilkemp.us/src/sse_tutorial/sse_tutorial.html
+MMX/SSE/AVX functions listed (INTEL WITH COLORS): https://software.intel.com/sites/landingpage/IntrinsicsGuide/
+CPU-Z: http://www.cpuid.com/softwares/cpu-z.html
+NASM: http://www.nasm.us/xdoc/2.10.09/nasmdoc.pdf
+NASM sipmle examples (SIMD): http://webcache.googleusercontent.com/search?q=cache:tiQAw_Yj6uMJ:cs.lmu.edu/~ray/notes/nasmexamples/+&cd=1&hl=en&ct=clnk
+x86 Disassembly: http://en.wikibooks.org/wiki/X86_Disassembly
+x86 Assembly Guide: (MASM) http://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+ASM arrays: http://cs.smith.edu/~thiebaut/ArtOfAssembly/CH05/CH05-2.html
+CPUID (rdtcp, 3dNow, lzcnt, POPCNT)
+ARM NEON <-> SSE: http://software.intel.com/en-us/blogs/2012/12/12/from-arm-neon-to-intel-mmxsse-automatic-porting-solution-tips-and-tricks
+
+Porting 32bit -> 64bit: http://www.viva64.com/en/a/0004/
+
+GCC vs VS intrins: http://svn.assembla.com/svn/iLog/intrin_x86.h
+GCC Built-ins: http://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html
+
+Conformance bitstreams: http://wftp3.itu.int/av-arch/jvt-site/draft_conformance/
+
+Bit Twiddling: http://graphics.stanford.edu/~seander/bithacks.html
+
+Useful SSE examples: http://en.wikibooks.org/wiki/X86_Assembly/SSE
+All x86 instructions: http://en.wikipedia.org/wiki/X86_instruction_listings
+
+pshufd faster than movdqa: http://software.intel.com/en-us/articles/fast-simd-integer-move-for-the-intel-pentiumr-4-processor
+
+32 Bit registers: http://en.wikipedia.org/wiki/EBX_register#32-bit
+
+x86 calling convention: http://en.wikipedia.org/wiki/X86_calling_conventions
+
+x86 assembly cool guide (LOOPS, JUMP, SSE, MMX...): http://en.wikibooks.org/wiki/X86_Assembly/Control_Flow#Jump_on_Equality, http://en.wikibooks.org/wiki/X86_Assembly
+
+CLZ, CTZ, FFS...: http://en.wikipedia.org/wiki/Find_first_set
+
+Mixing C/ASm: http://courses.engr.illinois.edu/ece390/books/labmanual/c-prog-mixing.html
+
+Optimization guide for x86: http://www.agner.org/optimize/optimizing_assembly.pdf
+
+Cache line opti: http://lwn.net/Articles/255364/
+
+According to the Intel ABI, the EAX, EDX, and ECX are to be free for use within a procedure or function, and need not be preserved.
+
+YUV sequences: http://trace.eas.asu.edu/yuv/0
+
+SSE Motion Est.: http://software.intel.com/en-us/articles/motion-estimation-with-intel-streaming-simd-extensions-4-intel-sse4#Motion Estimation Using MPSADBW and PHMINPOSUW
+
+
+1 byte (8 bit): byte, DB, RESB
+2 bytes (16 bit): word, DW, RESW
+4 bytes (32 bit): dword, DD, RESD
+8 bytes (64 bit): qword, DQ, RESQ
+10 bytes (80 bit): tword, DT, REST
+16 bytes (128 bit): oword, DO, RESO, DDQ, RESDQ
+32 bytes (256 bit): yword
+
+#pragma optimize ("", off)
+
+ref transaction: 46616
+
+FIXME: x64 wrongly detected
+
+SVC flowchart: http://www.scribd.com/doc/19835181/H264G8Flowchartv1
+
+Fast prediction:
+http://www.isu.edu.tw/upload/28/3/29520/paper/9902/%E8%91%A3%E7%A5%BA%E5%81%89-P6-AIA-(9).pdf
+https://www4.rgu.ac.uk/files/h264_complexity_kannangara.pdf
+http://twins.ee.nctu.edu.tw/~tschang/publications/conference/2005%20ISCAS%20Fast%20three%20step%20intra%20prediction%20algorithm%20for%204x4%20blocks%20in%20H.264.pdf
+http://vc.cs.nthu.edu.tw/home/paper/codfiles/yzchen/201005200435/Fast%20Mode%20Decision%20for%20H.264%20AVC%20Based%20on%20Macroblock%20Motion%20Activity.pdf
+
+Selecting Intra vs Inter Frame Coding:
+http://www.cs.cf.ac.uk/Dave/Multimedia/PDF/12_MPEG.pdf
+
+Analyze UMHexagonS
+http://uu.diva-portal.org/smash/get/diva2:610331/FULLTEXT01.pdf
+
+Activity:
+http://publications.lib.chalmers.se/records/fulltext/95351.pdf
+
+campus id=165012
+mdp: clachen88
+
